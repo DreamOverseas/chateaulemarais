@@ -3,29 +3,40 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Home = () => {
-  // 定义幻灯片图片数组，假设图片位于 public/wildlife/slider 文件夹中
   const sliderImages = [
     '/home/4.webp',
     '/home/1.png',
     '/home/6.webp',
     '/home/8.webp',
     '/home/7.webp',
-    
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const handlePrev = () => {
-    setCurrentSlide(prev => (prev === 0 ? sliderImages.length - 1 : prev - 1));
+    setCurrentSlide((prev) => (prev === 0 ? sliderImages.length - 1 : prev - 1));
   };
 
   const handleNext = () => {
-    setCurrentSlide(prev => (prev === sliderImages.length - 1 ? 0 : prev + 1));
+    setCurrentSlide((prev) => (prev === sliderImages.length - 1 ? 0 : prev + 1));
+  };
+
+  const handleShare = () => {
+    if (navigator.share) {
+      navigator
+        .share({
+          title: 'Chateau Le Marais',
+          text: 'Escape to Chateau Le Marais, a luxurious private residence on Wallis Island.',
+          url: window.location.href,
+        })
+        .then(() => console.log('Content shared successfully!'))
+        .catch((error) => console.error('Error sharing content:', error));
+    } else {
+      alert('Sharing is not supported on this browser.');
+    }
   };
 
   return (
     <div className="bg-white">
-  
-
       {/* Header Section Above Slider */}
       <section className="py-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
@@ -35,12 +46,11 @@ const Home = () => {
               8-10 guests | 5 bedrooms | 5 King beds | 5 baths
             </p>
           </div>
-          <div className="flex items-center space-x-2">
-            <img
-              src="/wildlife/share-icon.png"
-              alt="Share"
-              className="h-6 w-6"
-            />
+          <div
+            className="flex items-center space-x-2 cursor-pointer"
+            onClick={handleShare}
+          >
+            <img src="/home/share.svg" alt="Share" className="h-6 w-6" />
             <div className="text-lg font-medium text-gray-700">Share</div>
           </div>
         </div>
