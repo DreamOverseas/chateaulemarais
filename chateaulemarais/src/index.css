@@ -1,5 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import "tailwindcss";
 /* 这里可以加入你自己的全局样式 */

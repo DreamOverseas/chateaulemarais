@@ -29,11 +29,14 @@ const GuestInformation = () => {
           John Du
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          {infoSections.map(({ title, content }, idx) => (
-            <div key={idx} className="bg-gray-50 p-6 rounded-lg shadow-md">
-              <h3 className="text-2xl font-semibold mb-4">{title}</h3>
-              <p className="text-base leading-relaxed whitespace-pre-line">{content}</p>
+        <div className="space-y-8">
+          {infoSections.map((section, idx) => (
+            <div key={idx} className="rounded-lg">
+              <div className="flex items-center space-x-2 mb-4">
+                <img src="/info.svg" alt="Info Icon" className="h-6 w-6" /> {/* 添加图标 */}
+                <h2 className="text-2xl font-bold">{section.title}</h2>
+              </div>
+              <p className="text-gray-700 whitespace-pre-line">{section.content}</p>
             </div>
           ))}
         </div>
@@ -41,7 +44,7 @@ const GuestInformation = () => {
         <h2 className="text-4xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqItems.map((faq, idx) => (
-            <div key={idx} className="border rounded-lg">
+            <div key={idx} className="rounded-lg">
               <button
                 onClick={() => toggleFAQ(idx)}
                 className="w-full text-left px-6 py-4 text-xl font-medium bg-gray-100 hover:bg-gray-200"
