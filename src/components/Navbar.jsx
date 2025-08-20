@@ -151,7 +151,7 @@ const Navbar = () => {
                   href="tel:+1234567890" 
                   className="text-black hover:underline font-medium"
                 >
-                  +1 (234) 567-890
+                  +61 (04)1316 8533
                 </a>
               </div>
             </div>
