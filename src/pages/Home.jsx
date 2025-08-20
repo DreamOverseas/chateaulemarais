@@ -43,7 +43,7 @@ const Home = () => {
           <div>
             <div className="text-4xl font-bold">Chateau Le Marais</div>
             <p className="text-lg text-gray-700">
-              8-10 guests | 5 bedrooms | 5 King beds | 5 baths
+              4-10 guests | 5 bedrooms | 5 King beds | 5 baths
             </p>
           </div>
           <div
