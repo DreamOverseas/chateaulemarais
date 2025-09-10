@@ -45,7 +45,7 @@ const Home = () => {
               Chateau Le Marais
             </div>
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 mt-1">
-              4-10 guests | 5 bedrooms | 5 King beds | 5 baths
+              2 Wings. 2 Bedrooms, 2 Bathrooms, 2 King size beds, 4 adults and 4 children maximum for each wing.
             </p>
           </div>
           <div
@@ -149,7 +149,7 @@ const Home = () => {
                 <h3 className="text-xl sm:text-2xl font-bold">Size</h3>
               </div>
               <p className="text-base sm:text-lg text-gray-800 leading-relaxed">
-                Private Residence with 3 levels 5 bedrooms, 5 baths, 10549 square feet, 981 square meters
+                Private Residence with 3 levels 4 bedrooms, 4 baths, 10549 square feet, 981 square meters
               </p>
             </div>
 
@@ -160,7 +160,7 @@ const Home = () => {
                 <h3 className="text-xl sm:text-2xl font-bold">Bedrooms</h3>
               </div>
               <p className="text-base sm:text-lg text-gray-800 leading-relaxed">
-                5 King Sized Bedrooms. 10 guests maximum
+                4 King Sized Bedrooms. 2 adults and 2 children maximum for each bedroom.
               </p>
             </div>
 
