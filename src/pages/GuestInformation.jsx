@@ -137,10 +137,10 @@ const faqItems = [
     answer: `As stated above in the [Transportation] Section.
 
 Here's some contact info for transportation providers:
-- Sydney HeliTours: Sydney Airport, 472 Ross Smith Ave, Mascot NSW 2020 (P:0293173402) 355R+PH Mascot, New South Wales. Price: Eurocopter EC130 Approx $5,600 ($440/ph for waiting inc GST). From Cessnock Airport or Sydney Airport: 1 hour 10 minutes (subject to air traffic control at Williamstown).
-- The nearest Wharf: Coomba Park Public Wharf QF7F+WF Coomba Park, New South Wales. Once you arrive at Coomba Park Public Wharf you can park before getting on the water taxi to Wallis Island. 5 minutes from Coomba park to the house on Wallis Island by boat.
+- Sydney HeliTours: Sydney Airport, 472 Ross Smith Ave, Mascot NSW 2020 (P:0293173402) Mascot NSW 2020. Price: Eurocopter EC130 Approx $5,600 ($440/ph for waiting inc GST). From Cessnock Airport or Sydney Airport: 1 hour 10 minutes (subject to air traffic control at Williamstown).
+- The nearest Wharf: Coomba Park Public Wharf 3 Moorooba Rd, Coomba Park NSW 2428. Once you arrive at Coomba Park Public Wharf you can park before getting on the water taxi to Wallis Island. 5 minutes from Coomba park to the house on Wallis Island by boat.
 - Port Macquarie Water Jet: You can also book a seaplane that goes straight to the jetty at Wallis Island http://portmacquarieseaplanes.com.au/
-- Forster Aussie Boatshed rental boat company (Provide Water Taxi Service): www.aussieboatshed.com.au, 11-13 Little St Forster, NSW 2428. 25 minutes from Forster to the house on Wallis Island by boat. RG66+HC Forster, New South Wales.
+- Forster Aussie Boatshed rental boat company (Provide Water Taxi Service): www.aussieboatshed.com.au, 11-13 Little St Forster, NSW 2428. 25 minutes from Forster to the house on Wallis Island by boat. 75 Little St, Forster NSW 2428.
 
 For more information please contact us.`
   },
