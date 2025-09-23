@@ -39,7 +39,7 @@ const Location = () => {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-gray-800">Transportation Options</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Choose your preferred way to reach our island paradise. Each option requires self-arranged boat transport for the final leg of your journey.
+              Location: 736 Wallis Island, Wallis Lake, NSW 2428
             </p>
           </div>
           
@@ -122,8 +122,6 @@ const Location = () => {
           />
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 };
