@@ -127,7 +127,7 @@ As we are off-grid and isolated from the mainland, please understand any respons
   {
     title: 'Cancellations',
     content:
-      `A 24-hour cancellation notice policy stands. Please ensure notice is given at least 24-hours before your booking. If not, you will be charged 100% of your stay.`
+      `A 14-days cancellation notice policy stands. Please ensure notice is given at least 14-days before your booking. If not, you will be charged 100% of your stay.`
   }
 ];
 
